@@ -54,6 +54,11 @@
 
   @media screen and (min-width: 1440px) {
     .recommended-article{
+        .content{
+            max-height: 127px;
+            min-width: 250px;
+        }
+        
         img{
             max-width: 100px !important;
         }

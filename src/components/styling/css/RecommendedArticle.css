@@ -45,4 +45,13 @@
   .recommended-article img {
     max-width: 150px;
   }
+}
+@media screen and (min-width: 1440px) {
+  .recommended-article .content {
+    max-height: 127px;
+    min-width: 250px;
+  }
+  .recommended-article img {
+    max-width: 100px !important;
+  }
 }/*# sourceMappingURL=RecommendedArticle.css.map */
