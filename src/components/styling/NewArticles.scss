@@ -1,0 +1,62 @@
+@import "./variables";
+
+.new-articles{
+    background-color: $very-dark-blue;
+    color: $off-white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    min-width: 343px;
+    min-height: 489px;
+    padding: 1.5rem 1.25rem;
+    margin-bottom: 4rem;
+    grid-area: new;
+    h1{
+        color: $soft-orange;
+        font-weight: map-get($font-weights, "extrabold");
+        font-size: 2rem;
+        line-height: 2rem;
+        text-align: left;
+        margin-bottom: 2rem;
+        margin-top: 2rem;
+    }
+    .article{
+        margin-top: 2rem;
+        margin-bottom: 1.875rem;
+        h2{
+            font-weight: map-get($font-weights, "extrabold");
+            font-size: 1.25rem;
+            line-height: 1.5rem;
+            margin-bottom: 0.5rem;
+        }
+        p{
+            color: $greyish-blue;
+            font-weight: map-get($font-weights, "regular");
+            font-size: 15px;
+            line-height: 1.625rem;
+        }
+    }
+    hr{
+        height: 1px;
+        background-color: $dark-greyish-blue;
+        border: none;
+    }
+}
+
+
+@media screen and (min-width: 800px) {
+    .new-articles{
+        margin-right: 2rem;
+        height: 100%;
+    }
+  }
+
+@media screen and (min-width: 1440px){
+    .new-articles{
+        max-width: 350px;
+        max-height: 511px;
+        margin-left: 2rem;
+        margin-top: -4.5rem;
+    }
+}

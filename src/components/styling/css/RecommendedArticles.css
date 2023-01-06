@@ -1,0 +1,22 @@
+.recommended-articles {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 2rem;
+  margin-bottom: 5rem;
+  grid-area: rec;
+}
+
+@media screen and (min-width: 800px) {
+  .recommended-articles {
+    height: 100%;
+    margin-top: 1rem;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .recommended-articles {
+    flex-direction: row;
+  }
+}/*# sourceMappingURL=RecommendedArticles.css.map */

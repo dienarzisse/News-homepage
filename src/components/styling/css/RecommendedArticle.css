@@ -1,0 +1,48 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700;800&display=swap");
+.recommended-article {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.recommended-article img {
+  max-width: 100px;
+  margin-right: 1.5rem;
+}
+.recommended-article .content {
+  min-height: 129px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.recommended-article .content h2 {
+  color: hsl(233deg, 8%, 79%);
+  font-size: 2rem;
+  line-height: 2rem;
+  font-weight: 700;
+  margin-bottom: 0.75rem;
+}
+.recommended-article .content a {
+  color: hsl(240deg, 100%, 5%);
+  font-size: 1.25rem;
+  line-height: 1.5rem;
+  font-weight: 800;
+  margin-bottom: 0.5rem;
+  text-decoration: none;
+  cursor: pointer;
+}
+.recommended-article .content a:hover {
+  color: hsl(35deg, 77%, 62%);
+}
+.recommended-article .content p {
+  color: hsl(233deg, 8%, 79%);
+  font-size: 15px;
+  line-height: 1.625rem;
+  font-weight: 400;
+}
+
+@media screen and (min-width: 800px) {
+  .recommended-article img {
+    max-width: 150px;
+  }
+}/*# sourceMappingURL=RecommendedArticle.css.map */
